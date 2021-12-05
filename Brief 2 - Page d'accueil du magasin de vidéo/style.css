@@ -115,6 +115,7 @@ header {
     align-items: center;
 }
 
+/* this part of the code just a sample application for media query  */
 @media screen and (max-width: 1100px) {
     .container-product {
         flex-direction: column;
