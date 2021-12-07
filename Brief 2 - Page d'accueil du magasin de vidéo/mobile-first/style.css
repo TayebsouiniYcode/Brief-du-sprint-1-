@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    text-align: left;
+}
+p {
+    text-align: left;
+}
+.logo {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: auto;
+    font-size: 24px;
+    font-family: fantasy;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.list-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.menu-link:hover {
+    text-decoration: underline;
+}
+.product-item {
+    margin: 5px;
+}
+.breadcrumbs {
+    display: flex;
+    list-style: none; 
+}
+.breadcrumbs-item {
+    padding-left: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+.breadcrumbs-link {
+    text-decoration: none;
+    color: #333;
+}
+.card {
+    border : solid #333 2px;
+    padding: 5px;
+    margin: 10px;
+}
+.rpp-card {
+    color: rgba(51, 51, 51, 0.486);
+}
+.save-card {
+    color: rgb(40, 179, 40);
+}
+.container {
+    margin: 10px;
+}
+
+/* media query for desktop  */
+@media only screen and (min-width: 601px) {
+    body {
+        margin: 0;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
