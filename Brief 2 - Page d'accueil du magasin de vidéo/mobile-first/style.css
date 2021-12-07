@@ -46,7 +46,7 @@ img {
 }
 .breadcrumbs-item {
     padding-left: 0;
-    padding: 10px;
+    padding: 0px;
     font-size: 14px;
 }
 .breadcrumbs-link {
@@ -71,10 +71,36 @@ img {
 /* media query for desktop  */
 @media only screen and (min-width: 601px) {
     body {
-        margin: 0;
+        margin-left: 2.5%;
     }
     header {
         display: flex;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .menu-item {
+        margin: 10px;
+    }
+    .product-item {
+        display: flex;
         justify-content: space-between;
+    }
+    .card-img {
+        height: 40%;
+        width: 100%;
+    }
+    .card-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .card {
+        flex: 1;
     }
 }
