@@ -3,7 +3,6 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 :root {
     --blue: #161853;
     --blueTwo: #292C6D;
@@ -13,12 +12,14 @@
 body {
     background-color: var(--blue);
 }
+h1 {
+    color : var(--blue);
+    
+}
 img {
     width: 100%;
     height: auto;
 }
-
-
 header {
     display: flex;
     justify-content: center;
@@ -31,7 +32,7 @@ header {
     align-self: center;
 }
 .logo {
-    width: 70%;
+    width: 80%;
     margin-bottom: 20px;
     margin: 40px;
 }
@@ -90,13 +91,54 @@ header {
     background-color: var(--white);
     font-size: 16px;
 }
-
 .form-item-checkbox label {
     margin-top: 20px;
     margin-right: 40px;
     font-size: 18px;
 }
-
+.btn {
+    border: none;
+}
+main {
+    padding-bottom: 40px;
+}
+.line {
+    border-top: 2px solid var(--red);
+    width: 80%;
+    align-self: center;
+}
 @media only screen and (min-width: 601px) {
-    
+    body {
+        background-color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        margin-top: 2.5%;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: var(--blue);
+        box-shadow: 10px 5px 5px var(--blueTwo);
+    }
+    .logo {
+        width: 40%;
+    }
+    .line {
+        /* border-top: none;
+        border-right: 3px solid var(--red);
+        height: 70%; */
+        display: none;
+    }
+    .container {
+        margin-top: 2.5%;
+    }
 }
