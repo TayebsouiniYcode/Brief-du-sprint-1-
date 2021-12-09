@@ -8,6 +8,10 @@
     --blueTwo: #292C6D;
     --white : #FAEDF0;
     --red : #EC255A;
+    /* --blue: #F0E9D2;
+    --blueTwo: #E6DDC4;
+    --white : #678983;
+    --red : #181D31; */
 }
 body {
     background-color: var(--blue);
