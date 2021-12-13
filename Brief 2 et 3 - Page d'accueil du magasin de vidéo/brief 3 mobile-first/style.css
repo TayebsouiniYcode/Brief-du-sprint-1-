@@ -71,7 +71,7 @@ img {
     color: rgba(51, 51, 51, 0.486);
 }
 .save-card {
-    color: rgb(40, 179, 40);
+    color: #333;
 }
 .container {
     margin: 10px;
@@ -100,6 +100,7 @@ img {
     .product-item {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .card-img {
         height: 50%;
